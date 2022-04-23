@@ -83,48 +83,48 @@ studentsInfo.sort().map((data, index) => {
   Admission Fees : ${data[6]}
   `);
   }
-  if (data[5] === "Banani") {
-    console.log(`
-  Name           : ${data[0]}
-  Roll           : ${data[1]}
-  Age            : ${data[2]}
-  Class          : ${data[3]}
-  Gender         : ${data[4]}
-  Location       : ${data[5]}
-  Admission Fees : ${data[6]}
-  `);
-  }
-  if (data[5] === "Badda") {
-    console.log(`
-  Name           : ${data[0]}
-  Roll           : ${data[1]}
-  Age            : ${data[2]}
-  Class          : ${data[3]}
-  Gender         : ${data[4]}
-  Location       : ${data[5]}
-  Admission Fees : ${data[6]}
-  `);
-  }
-  if (data[5] === "Mirpur") {
-    console.log(`
-  Name           : ${data[0]}
-  Roll           : ${data[1]}
-  Age            : ${data[2]}
-  Class          : ${data[3]}
-  Gender         : ${data[4]}
-  Location       : ${data[5]}
-  Admission Fees : ${data[6]}
-  `);
-  }
-  if (data[5] === "Khilkhet") {
-    console.log(`
-  Name           : ${data[0]}
-  Roll           : ${data[1]}
-  Age            : ${data[2]}
-  Class          : ${data[3]}
-  Gender         : ${data[4]}
-  Location       : ${data[5]}
-  Admission Fees : ${data[6]}
-  `);
-  }
+  // if (data[5] === "Banani") {
+  //   console.log(`
+  // Name           : ${data[0]}
+  // Roll           : ${data[1]}
+  // Age            : ${data[2]}
+  // Class          : ${data[3]}
+  // Gender         : ${data[4]}
+  // Location       : ${data[5]}
+  // Admission Fees : ${data[6]}
+  // `);
+  // }
+  // if (data[5] === "Badda") {
+  //   console.log(`
+  // Name           : ${data[0]}
+  // Roll           : ${data[1]}
+  // Age            : ${data[2]}
+  // Class          : ${data[3]}
+  // Gender         : ${data[4]}
+  // Location       : ${data[5]}
+  // Admission Fees : ${data[6]}
+  // `);
+  // }
+  // if (data[5] === "Mirpur") {
+  //   console.log(`
+  // Name           : ${data[0]}
+  // Roll           : ${data[1]}
+  // Age            : ${data[2]}
+  // Class          : ${data[3]}
+  // Gender         : ${data[4]}
+  // Location       : ${data[5]}
+  // Admission Fees : ${data[6]}
+  // `);
+  // }
+  // if (data[5] === "Khilkhet") {
+  //   console.log(`
+  // Name           : ${data[0]}
+  // Roll           : ${data[1]}
+  // Age            : ${data[2]}
+  // Class          : ${data[3]}
+  // Gender         : ${data[4]}
+  // Location       : ${data[5]}
+  // Admission Fees : ${data[6]}
+  // `);
+  // }
 });
