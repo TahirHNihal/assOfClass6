@@ -9,7 +9,7 @@ const studentsInfo = [
   ["Fahima", "04", "16", "Nine", "Female", "Uttara", "9000"],
   ["Rahima", "08", "16", "Eight", "Female", "Badda", "8000"],
   ["Fahim", "06", "16", "Nine", "Male", "Uttara", "9000"],
-  ["Abdullah", "02", "16", "Eight", "Male", "Mirpur", "8000"],
+  ["Abdullah", "02", "6", "Eight", "Male", "Mirpur", "8000"],
   ["Sagor", "21", "19", "Seven", "Male", "Badda", "7000"],
   ["Mustakim", "36", "23", "Nine", "Male", "Uttara", "9000"],
   ["Promi", "09", "15", "six", "Female", "Khilkhet", "6000"],
@@ -70,9 +70,10 @@ studentsInfo.sort().map((data, index) => {
 
 // Location wise student result
 
+/*
 studentsInfo.sort().map((data, index) => {
+  // console.log("Here is the all Uttara Students information");
   if (data[5] === "Uttara") {
-    console.log('Here is the all Uttara Students information');
     console.log(`
   Name           : ${data[0]}
   Roll           : ${data[1]}
@@ -83,6 +84,8 @@ studentsInfo.sort().map((data, index) => {
   Admission Fees : ${data[6]}
   `);
   }
+});
+studentsInfo.sort().map((data, index) => {
   if (data[5] === "Banani") {
     console.log(`
   Name           : ${data[0]}
@@ -94,6 +97,8 @@ studentsInfo.sort().map((data, index) => {
   Admission Fees : ${data[6]}
   `);
   }
+});
+studentsInfo.sort().map((data, index) => {
   if (data[5] === "Badda") {
     console.log(`
   Name           : ${data[0]}
@@ -105,6 +110,8 @@ studentsInfo.sort().map((data, index) => {
   Admission Fees : ${data[6]}
   `);
   }
+});
+studentsInfo.sort().map((data, index) => {
   if (data[5] === "Mirpur") {
     console.log(`
   Name           : ${data[0]}
@@ -116,6 +123,8 @@ studentsInfo.sort().map((data, index) => {
   Admission Fees : ${data[6]}
   `);
   }
+});
+studentsInfo.sort().map((data, index) => {
   if (data[5] === "Khilkhet") {
     console.log(`
   Name           : ${data[0]}
@@ -128,3 +137,24 @@ studentsInfo.sort().map((data, index) => {
   `);
   }
 });
+*/
+
+// find student between 10 - 25 age
+
+/*
+studentsInfo.sort().map((data, index) => {
+  if ((data[2] >= 10 && data[2] <= 25)) {
+    index++;
+    console.log(`
+  Id             : ${index}
+  Name           : ${data[0]}
+  Roll           : ${data[1]}
+  Age            : ${data[2]}
+  Class          : ${data[3]}
+  Gender         : ${data[4]}
+  Location       : ${data[5]}
+  Admission Fees : ${data[6]}
+    `);
+  }
+});
+*/
