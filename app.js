@@ -67,6 +67,61 @@ studentsInfo.sort().map((data, index) => {
 });
 */
 // Find class wise student result
+/*
+studentsInfo.sort().map((data, index) => {
+  if (data[3] === "Six") {
+    console.log(`
+  Name           : ${data[0]}
+  Roll           : ${data[1]}
+  Age            : ${data[2]}
+  Class          : ${data[3]}
+  Gender         : ${data[4]}
+  Location       : ${data[5]}
+  Admission Fees : ${data[6]}
+  `);
+  }
+});
+studentsInfo.sort().map((data, index) => {
+  if (data[3] === "Seven") {
+    console.log(`
+  Name           : ${data[0]}
+  Roll           : ${data[1]}
+  Age            : ${data[2]}
+  Class          : ${data[3]}
+  Gender         : ${data[4]}
+  Location       : ${data[5]}
+  Admission Fees : ${data[6]}
+  `);
+  }
+});
+studentsInfo.sort().map((data, index) => {
+  if (data[3] === "Eight") {
+    console.log(`
+  Name           : ${data[0]}
+  Roll           : ${data[1]}
+  Age            : ${data[2]}
+  Class          : ${data[3]}
+  Gender         : ${data[4]}
+  Location       : ${data[5]}
+  Admission Fees : ${data[6]}
+  `);
+  }
+});
+studentsInfo.sort().map((data, index) => {
+  if (data[3] === "Nine") {
+    console.log(`
+  Name           : ${data[0]}
+  Roll           : ${data[1]}
+  Age            : ${data[2]}
+  Class          : ${data[3]}
+  Gender         : ${data[4]}
+  Location       : ${data[5]}
+  Admission Fees : ${data[6]}
+  `);
+  }
+});
+
+*/
 
 // Location wise student result
 
